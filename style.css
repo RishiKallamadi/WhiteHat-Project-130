@@ -1,0 +1,82 @@
+body {
+    font-family: 'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+
+canvas {
+    border: 6px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px gray;
+}
+
+.Header {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(109, 107, 107);
+    height: 85px;
+    font-family: 'Yeon Sung';
+    box-shadow: 2px 2px 8px gray;
+    z-index: 1;
+    padding-top: 7px;
+}
+
+.Title1, .Title2 {
+    font-size: 30px;
+}
+
+.Title1 {
+    color: rgb(162, 223, 162);
+}
+
+.Title2 {
+    margin-top: -12px;
+    color: #a4a9eb;
+}
+
+.Header img {
+    margin-top: -15px;
+    margin-left: 8px;
+}
+
+#SongName {
+    background-image: linear-gradient(to right top, rgb(199, 218, 224), rgb(214, 232, 238), rgb(219, 235, 240), rgb(219, 239, 245));;
+    width: 12.5%;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 22px;
+    padding-top: 5px;
+    border-radius: 6px;
+    font-weight: 500;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.Note {
+    background-color: #7b83eb;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 1px 1px 7px #373ea0;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.Note:hover {
+    animation-name: hover;
+    animation-duration: 2.5s;
+    animation-direction: forwards;
+}
+
+#note1 {
+    margin-top: 450px;
+}
+
+#note2 {
+    margin-top: 20px;
+}
+
+@keyframes hover {
+    from {background-color:  #7b83eb;}
+    to {background-color: #404cd1;}
+}
